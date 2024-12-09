@@ -1,20 +1,32 @@
-# Prediction of chemical levels found in aquatic organism tissues in California
+# Using Machine Learning to Predict High Levels of PCB Toxitiy in Fish by Location
 This project is a part of the Data Science Capstone Project for BrainStation
 
 
 ## Project Intro/Objective
-The purpose of this project is to be able to pinpoint which species in which location is most likely to have an elevated amount of PCBs in its tissues .
+
+**Problem Statement**: How can we use machine learning to determine areas in 
+California where PCBs has accumulated in aquatic organisms? 
+
+
+**Solution**: Using a prediction model to build an interactive map showing which area 
+and in which species shows the most occurrences of samples with PCBs level over 
+threshold
+
+**Project Ojective** Creating a proof of concept for the solution proposed
 
 #### Potential impacts:
-* Help researchers and cleanup groups to understand where polluted hotspots are
+* Help researchers and cleanup groups to understand where polluted hotspots are- Department of Toxic Substances Control (DTSC) & U.S. Environmental Protection Agency
+  
 * Help recreational fisher-people to know where is not safe for fishing, particularly which species in a given location
 
 
 ### Methods Used
+* Exploratory Data Analysis with Data Visualizations
 * Linear Regression
 * Logistic Regression
-* Machine Learning
-* Data Visualization
+* Machine Learning - Decision Tree Classifier, Random Forest Classifier
+* Model Evaluation Metrics
+  
   
 
 ### Technologies
@@ -25,6 +37,21 @@ The purpose of this project is to be able to pinpoint which species in which loc
    
 
 ### Project Description
+
+**What is PCB?**
+
+PCB" refers a group of man-made chemicals called polychlorinated biphenyls. There were mostly widely used in coolants and lubricants in transformers, capacitors, and other electrical equipment, until they were banned in the late 1970s. They do not break down easily and can remain in environment for decades.
+
+
+- Based on EPA guidelines, the maximum 
+allowable level of PCB is 75 nanograms of 
+Polychlorinated Biphenyls (PCBs) per gram of 
+wet weight (ww) in a substance, typically used 
+in regulations regarding food safety
+- Biomagnification is the process by which the 
+concentration of toxic substances increases at 
+
+
 #### Sprint 1
 For Sprint 1 of the project, I collected and took a preliminary look into the data. 
 Originally, I had wanted to look at the relationship between water pd levels and temperature and see how that affects the chemical levels in the species, but I could not find relevant data for it.
@@ -65,30 +92,28 @@ Explore Decision Tree and/or Random Forest models
 Restructure data to combine latitude & longitude as a location point. Right now longitude is being dropped due to strong collinearity to latitude. 
 
 
+#### Sprint 3
+
+Final Model Selection 
 
 
 ## Needs of this project
 
-- frontend developers
 - data exploration/descriptive statistics
 - data processing/cleaning
 - statistical modeling
 - writeup/reporting
-- etc. (be as specific as possible)
-
+- app prototyping
+  
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)
+2. Raw Data & temporary datasets for cleaning and EDA is kept here [Google Link] (https://drive.google.com/drive/folders/1kPnh-0KWNwPPuPcm21qYIKYdAne6DzEr?usp=sharing)
+3. Source raw data were downloaded from [here](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results)    
+4. Final Notebooks folder contains scripts need to run the project is [here](Repo folder containing data processing scripts/notebooks)
+5. Dataframe needed to run the final modeling is [here](Repo folder containing data processing scripts/notebooks)
+6. Sprint Notebooks documenting reiterative process (for archiving process, do not use for modeling) is [here](Repo folder containing data processing scripts/notebooks)
 
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
@@ -96,9 +121,6 @@ Restructure data to combine latitude & longitude as a location point. Right now 
 * [Blog Post](link)
 
 
-## DataSets
-
-(https://drive.google.com/drive/folders/1kPnh-0KWNwPPuPcm21qYIKYdAne6DzEr?usp=sharing)
 
 
 
