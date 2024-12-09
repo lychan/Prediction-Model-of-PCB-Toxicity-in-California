@@ -96,27 +96,12 @@ Restructure data to combine latitude & longitude as a location point. Right now 
 * [Blog Post](link)
 
 
-## Contributing DSWG Members
+## DataSets
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+(https://drive.google.com/drive/folders/1kPnh-0KWNwPPuPcm21qYIKYdAne6DzEr?usp=sharing)
 
 
 
 
 
 
-
-
-Dataset: https://drive.google.com/drive/u/0/folders/1Got0Z6ZovulmD01pmx4G-LxNgNWBOMHm
