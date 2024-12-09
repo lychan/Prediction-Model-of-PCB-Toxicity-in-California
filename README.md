@@ -107,10 +107,10 @@ Final Model Selection
   
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)
-2. Raw Data & temporary datasets for cleaning and EDA is kept here [Google Link] (https://drive.google.com/drive/folders/1kPnh-0KWNwPPuPcm21qYIKYdAne6DzEr?usp=sharing)
-3. Source raw data were downloaded from [here](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results)    
-4. Final Notebooks folder contains scripts need to run the project is [here](Repo folder containing data processing scripts/notebooks)
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
+2. Raw Data & temporary datasets for cleaning and EDA is kept here [Google Link](https://drive.google.com/drive/folders/1kPnh-0KWNwPPuPcm21qYIKYdAne6DzEr?usp=sharing)
+3. Source raw data were downloaded from [here](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results)   
+4. Final Notebooks folder contains scripts need to run the project is [here (Repo folder containing data processing scripts/notebooks)]
 5. Dataframe needed to run the final modeling is [here](Repo folder containing data processing scripts/notebooks)
 6. Sprint Notebooks documenting reiterative process (for archiving process, do not use for modeling) is [here](Repo folder containing data processing scripts/notebooks)
 
