@@ -48,9 +48,13 @@ Adverse effects on humans include liver damage, cancer, neurobehavioral changes,
 
 Biomagnification is the process by which the concentration of toxic substances increases exponentially as they move up the trophic levels in marine food chains.
  
+**What are trophic levels?**
 
+**What species and where are we looking at?**
 
-#### Sprint 1
+#### Project Steps:
+
+##### Sprint 1
 For Sprint 1 of the project, I collected and took a preliminary look into the data. 
 Originally, I had wanted to look at the relationship between water pd levels and temperature and see how that affects the chemical levels in the species, but I could not find relevant data for it.
 
@@ -69,7 +73,7 @@ Another of big challenge is pivoting the analytes columns so that each analyte w
 However, after receiving feedbacks from the presentations today, I decided to keep the duplicate values for now, but it is causing issues with the pivoting and merging. 
 Without being able to separate out the analyte into multiple columns, I cannot do any meaningful EDA to determine the treatment of the duplicate values. Figuring out a solution to this is imperlative as my next step.
 
-#### Sprint 2
+##### Sprint 2
 For Sprint 2, I gropued the 95 species to 13 species groups based on saltwater vs freshwater environments, and trophic levels
 There is still 15% null and 37% duplicated values. I dropped the duplicated values
 For the null values, for the mass/length measurement values, I used the median. For missing results for analyte levels, I pushed them to 0 since a 0 would me analyte not detected. 
@@ -90,7 +94,7 @@ Explore Decision Tree and/or Random Forest models
 Restructure data to combine latitude & longitude as a location point. Right now longitude is being dropped due to strong collinearity to latitude. 
 
 
-#### Sprint 3
+##### Sprint 3
 
 Final Model Selection 
 
