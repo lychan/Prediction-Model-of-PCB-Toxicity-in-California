@@ -47,7 +47,10 @@ Adverse effects on humans include liver damage, cancer, neurobehavioral changes,
 **What is Biomagnification?**
 
 Biomagnification is the process by which the concentration of toxic substances increases exponentially as they move up the trophic levels in marine food chains.
- 
+
+
+#Notes to Educators: This section still needs to be completed and organized.
+
 **What are trophic levels?**
 
 **What species and where are we looking at?**
@@ -97,6 +100,11 @@ Restructure data to combine latitude & longitude as a location point. Right now 
 ##### Sprint 3
 
 Final Model Selection 
+
+
+##### Sprint 4
+
+App Deployment
 
 
 ## Needs of this project
