@@ -42,14 +42,12 @@ threshold
 
 PCB" refers a group of man-made chemicals called polychlorinated biphenyls. There were mostly widely used in coolants and lubricants in transformers, capacitors, and other electrical equipment, until they were banned in the late 1970s. They do not break down easily and can remain in environment for decades.
 
+Adverse effects on humans include liver damage, cancer, neurobehavioral changes, and developmental health issues. According to EPA guidelines, the maximum allowable level of polychlorinated biphenyls (PCBs) is 75 nanograms per gram of wet weight (ww) in any given substance.
 
-- Based on EPA guidelines, the maximum 
-allowable level of PCB is 75 nanograms of 
-Polychlorinated Biphenyls (PCBs) per gram of 
-wet weight (ww) in a substance, typically used 
-in regulations regarding food safety
-- Biomagnification is the process by which the 
-concentration of toxic substances increases at 
+**What is Biomagnification?**
+
+Biomagnification is the process by which the concentration of toxic substances increases exponentially as they move up the trophic levels in marine food chains.
+ 
 
 
 #### Sprint 1
