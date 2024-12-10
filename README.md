@@ -42,7 +42,7 @@ threshold
 
 **What is PCB?**
 
-PCB" refers a group of man-made chemicals called polychlorinated biphenyls. There were mostly widely used in coolants and lubricants in transformers, capacitors, and other electrical equipment, until they were banned in the late 1970s. They do not break down easily and can remain in environment for decades.
+PCB refers a group of man-made chemicals called polychlorinated biphenyls. There were mostly widely used in coolants and lubricants in transformers, capacitors, and other electrical equipment, until they were banned in the late 1970s. They do not break down easily and can remain in environment for decades.
 
 Adverse effects on humans include liver damage, cancer, neurobehavioral changes, and developmental health issues. According to EPA guidelines, the maximum allowable level of polychlorinated biphenyls (PCBs) is 75 nanograms per gram of wet weight (ww) in any given substance.
 
@@ -51,7 +51,7 @@ Adverse effects on humans include liver damage, cancer, neurobehavioral changes,
 Biomagnification is the process by which the concentration of toxic substances increases exponentially as they move up the trophic levels in marine food chains.
 
 
-#Notes to Educators: This section still needs to be completed and organized.
+# Notes to Educators: This section still needs to be completed and organized.
 
 **What are trophic levels?**
 
