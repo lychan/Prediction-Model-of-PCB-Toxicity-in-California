@@ -1,4 +1,4 @@
-# Using Machine Learning to Predict High PCB Toxicity Levels in Fish Based on Location
+# Using Machine Learning to Predict Locations with High PCB Toxicity Levels in Fish
 
 
 This project is a part of the Data Science Capstone Project for BrainStation
