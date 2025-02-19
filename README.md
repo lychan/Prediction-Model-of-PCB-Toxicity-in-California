@@ -11,7 +11,8 @@ threshold
 
 **Project Ojective** Creating a proof of concept for the solution proposed
 
-### Key Words:
+
+## Key Words:
 
 **What is PCB?**
 
@@ -24,16 +25,16 @@ Adverse effects on humans include liver damage, cancer, neurobehavioral changes,
 Biomagnification is the process by which the concentration of toxic substances increases exponentially as they move up the trophic levels in marine food chains.
 
 
-#### Potential impacts:
+## Potential impacts:
 * Help researchers and cleanup groups to understand where polluted hotspots are- Department of Toxic Substances Control (DTSC) & U.S. Environmental Protection Agency
   
 * Help recreational fisher-people to know where is not safe for fishing, particularly which species in a given location
 
-Installation and Setup
-In this section, provide detailed instructions on how to set up the project on a local machine. This includes any necessary dependencies, software requirements, and installation steps. Make sure to include clear and concise instructions so that others can easily replicate your setup.
+## Installation and Setup
 
+Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
 
-## Codes and Resources Used
+### Codes and Resources Used
 Editor Used: VS Code, 
 Python Version: Python 3.12.7
 Python Packages Used
@@ -45,20 +46,20 @@ Python Packages Used
 
 ## Data
 
-## Source Data
+### Source Data
 
 Source raw data were downloaded from [here](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results)
 
-For this project, I used five years of tissue data in order to gain a more comprehensive pattern 
+For this project, I used five years of tissue data in order to gain a more comprehensive pattern, pulling from 2020-2024. This data set provides results of tissue from organisms found in surface waters. The data are of tissue from individual organisms and of composite samples where tissue samples from multiple organisms are combined and then analyzed. Both the individual samples and the composite sample results may be given so for individual samples, there will be a row for the individual sample and a row for the composite where the number per composite is one. 
 
-## Data Preprocessing
+### Data Preprocessing
 
 
 
-## Code structure
-Explain the code structure and how it is organized, including any significant files and their purposes. This will help others understand how to navigate your project and find specific components.
+### Code structure
 
-Here is the basic suggested skeleton for your data science repo (you can structure your repository as needed ):
+Dataframe needed to run the final modeling is [here](Repo folder containing data processing scripts/notebooks)
+
 
 ├── data
 │   ├── data1.csv
