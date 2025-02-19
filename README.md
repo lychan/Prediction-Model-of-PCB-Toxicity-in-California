@@ -1,44 +1,17 @@
 # Using Machine Learning to Predict Locations with High PCB Toxicity Levels in Fish
 
-
-This project is a part of the Data Science Capstone Project for BrainStation
-
-
 ## Project Intro/Objective
 
-**Problem Statement**: How can we use machine learning to determine areas in 
-California where PCBs has accumulated in aquatic organisms? 
+**Problem Statement**: How can we use machine learning to determine areas in California where PCBs has accumulated in aquatic organisms? 
 
-
-**Solution**: Using a prediction model to build an interactive map showing which area 
-and in which species shows the most occurrences of samples with PCBs level over 
+**Solution**: Using a prediction model to build an interactive map showing which area and in which species shows the most occurrences of samples with PCBs level over 
 threshold
+
+**Project Goal**: Explore how can we leverage machine learning to address complex ecological challenges, mitigate climate change, restore ecosystems, and engage a greater audience 
 
 **Project Ojective** Creating a proof of concept for the solution proposed
 
-#### Potential impacts:
-* Help researchers and cleanup groups to understand where polluted hotspots are- Department of Toxic Substances Control (DTSC) & U.S. Environmental Protection Agency
-  
-* Help recreational fisher-people to know where is not safe for fishing, particularly which species in a given location
-
-
-### Methods Used
-* Exploratory Data Analysis with Data Visualizations
-* Linear Regression
-* Logistic Regression
-* Machine Learning - Decision Tree Classifier, Random Forest Classifier
-* Model Evaluation Metrics
-  
-  
-
-### Technologies
-* Python
-* Pandas, jupyter
-* Sklearn
-* MatPlotLib, Seaborn, Plotly
-   
-
-### Project Description
+### Key Words:
 
 **What is PCB?**
 
@@ -51,12 +24,73 @@ Adverse effects on humans include liver damage, cancer, neurobehavioral changes,
 Biomagnification is the process by which the concentration of toxic substances increases exponentially as they move up the trophic levels in marine food chains.
 
 
-# Notes to Educators: This section still needs to be completed and organized.
+#### Potential impacts:
+* Help researchers and cleanup groups to understand where polluted hotspots are- Department of Toxic Substances Control (DTSC) & U.S. Environmental Protection Agency
+  
+* Help recreational fisher-people to know where is not safe for fishing, particularly which species in a given location
 
-**What are trophic levels?**
+Installation and Setup
+In this section, provide detailed instructions on how to set up the project on a local machine. This includes any necessary dependencies, software requirements, and installation steps. Make sure to include clear and concise instructions so that others can easily replicate your setup.
 
-**What species and where are we looking at?**
 
+## Codes and Resources Used
+Editor Used: VS Code, 
+Python Version: Python 3.12.7
+Python Packages Used
+
+* General: Jupyter Notebook, Anachonda
+* Data Manipulation: pandas, numpy
+* Data Visualization: plotly, seaborn, matplotlib 
+* Machine Learning: scikit-learn
+
+## Data
+
+## Source Data
+
+Source raw data were downloaded from [here](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results)
+
+For this project, I used five years of tissue data in order to gain a more comprehensive pattern 
+
+## Data Preprocessing
+
+
+
+## Code structure
+Explain the code structure and how it is organized, including any significant files and their purposes. This will help others understand how to navigate your project and find specific components.
+
+Here is the basic suggested skeleton for your data science repo (you can structure your repository as needed ):
+
+├── data
+│   ├── data1.csv
+│   ├── data2.csv
+│   ├── cleanedData
+│   │   ├── cleaneddata1.csv
+|   |   └── cleaneddata2.csv
+├── data_acquisition.py
+├── data_preprocessing.ipynb
+├── data_analysis.ipynb
+├── data_modelling.ipynb
+├── Img
+│   ├── img1.png
+│   ├── Headerheader.jpg
+├── LICENSE
+├── README.md
+└── .gitignore
+
+## Results and evaluation
+Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.
+   
+
+## Future work
+Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
+
+
+
+
+
+
+
+  
 #### Project Steps:
 
 ##### Sprint 1
@@ -108,15 +142,6 @@ Final Model Selection
 
 App Deployment
 
-
-## Needs of this project
-
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- app prototyping
-  
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
