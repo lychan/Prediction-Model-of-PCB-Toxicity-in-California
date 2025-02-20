@@ -57,7 +57,28 @@ For this project, I used five years of tissue data in order to gain a more compr
 
 ### Data Preprocessing
 
-Not all of the 117 columns contains valuable data needed for analysis and prediction. To trim down the the columns, I utilitzed this directory to determine which are the relevant data [here](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results).  
+**Step 1- Dropping Irrelevant Data** 
+
+Not all of the 117 columns contains valuable data needed for analysis and prediction. To trim down the the columns, I utilitzed this directory to determine which are the relevant data [here](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results), and drop columns that are not core for the purpose of this analysis, which are:
+
+Columns about Tissue sample preparation methods
+Columns containing internal codes used for agency reporting
+Columns that are all nulls
+Columns about Project agencies information
+Columns about sample prep methods:
+Columns containing internal compliance/quality codes
+Columns that are comments regarding lab analysis methods
+Columns about agencies
+
+To drop those columns, this is the code:
+
+''' drop_list = ['TissuePrep', 'Matrix', 'Method', 'QACode', 'BatchVerification', 'ComplianceCode', 'DilutionFactor', 'ResultComments', 'PrepPreservationName', 'PrepPreservationDate', 'DigestExtractMethod', 'DigestExtractDate', 'AnalysisDate', 'CompositeComments', 'LabBatch', 'LabBatchComments', 'AnalyzingAgency', 'SubmittingAgency', 'LabSubmissionCode', 'LatestDateSampled', 'SampleDateRange(Days)', 'SampleDate', 'CollectionTime', 'CompositeParentProjectName', 'CompositeProjectCode', 'CompositeProjectName', 'CompositeSampleDate', 'CompositeProgramName', 'CompositeTissuePrep', 'SamplingAgency', 'GroupSample', 'ProtocolCode', 'LocationCode', 'HydroModLoc', 'Hydromod', 'CollectionMethodName', 'CollectionDeviceName', 'TagNumber', 'LengthSource', 'WeightSource', 'Anomaly', 'ProcessedOrganismsExpandedComments', 'PartsComments', 'CompAgency', 'CompositeRowID', 'PersonnelCode', 'SampleComments', 'TissueCollectionComments', 'LocationDetailTIComments', 'CompositeJunctionRowID', 'DWC_AnalyteWFraction', 'DataQuality', 'DataQualityIndicator', 'Datum', 'SizeDescr', 'ResQualCode', 'MDL', 'RL', 'ProgramName', 'ParentProjectName', 'ProjectCode', 'SampleID']
+
+len(drop_list)
+
+df2 = df2.drop(columns = drop_list) '''
+
+**Step 2- Analyzing Null Values & Duplicated Rows**
 
 When looking at the null values, I found that one of the core columns for this analysis, "Result", has 42% nulls. I had to take a deeper dive to understand what they name
 In addition, I had found over 7000 duplicate rows, which is 16% of my dataset. I hestitated to drop them as they could contain valuable results.
