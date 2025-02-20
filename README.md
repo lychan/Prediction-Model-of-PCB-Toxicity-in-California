@@ -26,22 +26,24 @@ Biomagnification is the process by which the concentration of toxic substances i
 
 
 ## Potential impacts:
+
 * Help researchers and cleanup groups to understand where polluted hotspots are- Department of Toxic Substances Control (DTSC) & U.S. Environmental Protection Agency
   
 * Help recreational fisher-people to know where is not safe for fishing, particularly which species in a given location
+
 
 ## Installation and Setup
 
 Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/))
 
 ### Codes and Resources Used
-Editor Used: VS Code, 
+Editor Used: VS Code
 Python Version: Python 3.12.7
 Python Packages Used
 
 * General: Jupyter Notebook, Anachonda
 * Data Manipulation: pandas, numpy
-* Data Visualization: plotly, seaborn, matplotlib 
+* Data Visualization: plotly, seaborn, matplotlib, Streamlit 
 * Machine Learning: scikit-learn
 
 ## Data
@@ -55,7 +57,7 @@ For this project, I used five years of tissue data in order to gain a more compr
 
 ### Data Preprocessing
 
-Not all of the 117 columns contains valuable data needed for analysis and prediction. To trim down the 
+Not all of the 117 columns contains valuable data needed for analysis and prediction. To trim down the the columns, I utilitzed this directory to determine which are the relevant data [here](https://data.ca.gov/dataset/surface-water-aquatic-organism-tissue-sample-results).  
 
 When looking at the null values, I found that one of the core columns for this analysis, "Result", has 42% nulls. I had to take a deeper dive to understand what they name
 In addition, I had found over 7000 duplicate rows, which is 16% of my dataset. I hestitated to drop them as they could contain valuable results.
